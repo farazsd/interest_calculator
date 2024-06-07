@@ -1,0 +1,83 @@
+{
+  "rate_of_interest": {
+    "text_color": "#000000",
+    "text_size": 16,
+    "label_text": "Annual Interest Rate (%)",
+    "values": [
+      {"value": 1, "label": "1%"},
+      {"value": 2, "label": "2%"},
+      {"value": 3, "label": "3%"},
+      {"value": 4, "label": "4%"},
+      {"value": 5, "label": "5%"},
+      {"value": 6, "label": "6%"},
+      {"value": 7, "label": "7%"},
+      {"value": 8, "label": "8%"},
+      {"value": 9, "label": "9%"},
+      {"value": 10, "label": "10%"},
+      {"value": 11, "label": "11%"},
+      {"value": 12, "label": "12%"},
+      {"value": 13, "label": "13%"},
+      {"value": 14, "label": "14%"},
+      {"value": 15, "label": "15%"}
+    ]
+  },
+  "principal_amount": {
+    "label_text": "Principal Amount",
+    "hint_text": "Enter Principal Amount",
+    "text_color": "#000000",
+    "text_size": 16,
+    "min_amount": {
+      "1": 10000,
+      "2": 10000,
+      "3": 10000,
+      "4": 50000,
+      "5": 50000,
+      "6": 50000,
+      "7": 50000,
+      "8": 75000,
+      "9": 75000,
+      "10": 75000,
+      "11": 75000,
+      "12": 100000,
+      "13": 100000,
+      "14": 100000,
+      "15": 100000
+    },
+    "max_amount": 10000000,
+    "error_message": {
+      "min": "Principal amount is below the minimum required.",
+      "max": "Principal amount exceeds the maximum limit."
+    }
+  },
+  "compounds_per_year": {
+    "label_text": "Times Compounded Per Year",
+    "text_color": "#000000",
+    "text_size": 16,
+    "values": {
+      "12": [{"value": 1, "label": "1"}],
+      "6": [{"value": 2, "label": "2"}],
+      "3": [{"value": 4, "label": "4"}],
+      "default": [
+        {"value": 1, "label": "1"},
+        {"value": 2, "label": "2"},
+        {"value": 4, "label": "4"}
+      ]
+    }
+  },
+  "years": {
+    "label_text": "Number of Years",
+    "text_color": "#000000",
+    "text_size": 16,
+    "values": {
+      "1": [{"value": 1, "label": "1"}, {"value": 2, "label": "2"},{"value": 3, "label": "3"},{"value": 4, "label": "4"},{"value": 5, "label": "5"},{"value": 6, "label": "6"},{"value": 7, "label": "7"},{"value": 8, "label": "8"},{"value": 9, "label": "9"}, {"value": 10, "label": "10"}],
+      "2": [{"value": 1, "label": "1"}, {"value": 2, "label": "2"},{"value": 3, "label": "3"},{"value": 4, "label": "4"},{"value": 5, "label": "5"},{"value": 6, "label": "6"},{"value": 7, "label": "7"},{"value": 8, "label": "8"},{"value": 9, "label": "9"}, {"value": 10, "label": "10"},{"value": 11, "label": "11"}, {"value": 12, "label": "12"},{"value": 13, "label": "13"},{"value":14, "label": "14"},{"value": 15, "label": "15"},{"value": 16, "label": "16"},{"value": 17, "label": "17"},{"value": 18, "label": "18"},{"value": 19, "label": "19"}, {"value": 20, "label": "20"}],
+      "4": [{"value": 1, "label": "1"}, {"value": 2, "label": "2"},{"value": 3, "label": "3"},{"value": 4, "label": "4"},{"value": 5, "label": "5"},{"value": 6, "label": "6"},{"value": 7, "label": "7"},{"value": 8, "label": "8"},{"value": 9, "label": "9"}, {"value": 10, "label": "10"},{"value": 11, "label": "11"}, {"value": 12, "label": "12"},{"value": 13, "label": "13"},{"value":14, "label": "14"},{"value": 15, "label": "15"},{"value": 16, "label": "16"},{"value": 17, "label": "17"},{"value": 18, "label": "18"},{"value": 19, "label": "19"}, {"value": 20, "label": "20"},{"value": 21, "label": "21"}, {"value": 22, "label": "22"},{"value": 23, "label": "23"},{"value":24, "label": "24"},{"value": 25, "label": "25"},{"value": 26, "label": "26"},{"value": 27, "label": "27"},{"value": 28, "label": "28"},{"value": 29, "label": "29"}, {"value": 30, "label": "30"}]
+    }
+  },
+  "output": {
+    "label_text": "Output Value",
+    "text_color": "#FF0000",
+    "text_size": 22,
+    "mode_of_display": "text-field"
+  }
+}
