@@ -3,16 +3,16 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 
-class CompoundInterestForm extends StatefulWidget {
+class InterestForm extends StatefulWidget {
   final Map<String, dynamic> fieldConfig;
 
-  const CompoundInterestForm({super.key, required this.fieldConfig});
+  const InterestForm({super.key, required this.fieldConfig});
 
   @override
-  State<CompoundInterestForm> createState() => _CompoundInterestFormState();
+  State<InterestForm> createState() => _InterestFormState();
 }
 
-class _CompoundInterestFormState extends State<CompoundInterestForm> {
+class _InterestFormState extends State<InterestForm> {
   int _selectedRate = 1;
   int _selectedCompound = 1;
   int _selectedYear = 1;

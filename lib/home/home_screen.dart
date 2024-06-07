@@ -45,7 +45,7 @@ class _HomeScreenState extends State<HomeScreen> {
           } else if (!snapshot.hasData) {
             return const Center(child: Text('No data found'));
           } else {
-            return CompoundInterestForm(fieldConfig: snapshot.data!);
+            return InterestForm(fieldConfig: snapshot.data!);
           }
         },
       ),
