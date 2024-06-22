@@ -68,15 +68,7 @@ class _InterestFormState extends State<InterestForm> {
   }
 
   double getMinAmount(int rate) {
-    if (rate >= 1 && rate <= 3) {
-      return 10000;
-    } else if (rate >= 4 && rate <= 7) {
-      return 10001;
-    } else if (rate >= 8 && rate <= 12) {
-      return 50001;
-    } else {
-      return 75001;
-    }
+    return principalAmountConfig['min_amount']['$rate'];
   }
 
   List<DropdownMenuItem<int>> getDropdownItems(List<dynamic> values) {
